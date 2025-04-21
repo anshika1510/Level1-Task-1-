@@ -42,7 +42,9 @@ This repository contains the completed tasks for **Level 1** of my web developme
 ---
 
 ### Screenshots
-![Screenshot of the Web Page](image-url)
+![Screenshot of the Web Page](https://github.com/anshika1510/Level1-Task-1-/blob/main/Screenshot%202025-04-21%20185254.png)
+![Screenshot of the Web Page](https://github.com/anshika1510/Level1-Task-1-/blob/main/Screenshot%202025-04-21%20185254.png)
+![Screenshot of the Web Page](https://github.com/anshika1510/Level1-Task-1-/blob/main/Screenshot%202025-04-21%20185254.png)
 
 
 ---

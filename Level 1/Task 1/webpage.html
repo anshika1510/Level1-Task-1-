@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1</title>
+
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body{
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .image-style{
+            width: 300px;
+            margin-bottom: 0;
+        }
+
+        nav {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #cc00cc 0%, #ff0066 100%); /* Background color */
+            padding: 10px;
+        }
+        nav ul {
+            font-family: Arial, sans-serif;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around; /* Distribute links evenly */
+        }
+        nav ul li {
+            font-family: Arial, sans-serif;
+            display: inline;
+        }
+        nav ul li a {
+            font-family: Arial, sans-serif;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.15s;
+        }
+        nav ul li a:hover {
+            opacity: 0.6;
+        }
+
+        .text{
+            font-family: Arial;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 40px;
+            width: 600px;
+            margin-bottom: 0;
+            
+        }
+
+
+        .content {
+            display: flex; /* Enables flexbox layout */
+            align-items: flex-start; /* Align items at the top */
+            margin-top: 20px;
+        }
+
+         .content .para-text{
+            font-family: Arial;
+            margin-top: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: rgb(107, 105, 105);
+            width: 600px;
+            height: 200px;
+            line-height: 28px;
+
+        }
+
+        .content .side-img{
+            width: 500px; /* Sets image width */
+        }
+
+        #contact-form {
+            font-family: Arial;
+            margin-top: 40px; /* Add spacing for better visibility */
+            padding: 20px;
+            background-color: #f1a1cd; /* Optional styling */
+            border: 1px solid #ddd; /* Optional styling */
+        }
+
+        .form-box{
+            border-radius: 8px;
+        }
+
+        .form-style{
+            font-family: Arial;
+            font-size: 15px;
+        }
+
+        .form-style .name-box{
+            border-radius: 10px;
+            font-size: 10px;
+            height: 30px;
+            width: 200px;
+            border: none;
+            margin-left: 6px;
+
+        }
+
+        .form-style .email-box{
+            border-radius: 10px;
+            font-size: 10px;
+            height: 30px;
+            width: 200px;
+            border: none;
+            margin-left: 6px;
+        }
+
+        .form-style .message-box{
+            border-radius: 10px;
+            font-size: 15px;
+            height: 150px;
+            width: 200px;
+            border: none;
+            margin-left: 6px;
+        }
+
+        .submit{
+            font-family: Arial;
+            background: linear-gradient(to right, #cc00cc 0%, #ff0066 100%);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            transition: opacity 0.15s;
+
+        }
+
+        .submit:hover{
+            opacity: 0.7;
+        }
+
+    </style>
+
+</head>
+<body>
+    <img class="image-style" src="images/cognyfiz-tech.jpeg">
+
+    <nav>
+        <ul>
+            <li><a href="https://cognifyz.com/">HOME</a></li>
+            <li><a href="https://cognifyz.com/about-us/">ABOUT US</a></li>
+            <li><a href="#contact-form">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <p class="text">Innovating Intelligence, Empowering Possibilities</p>
+    
+    <div class="content">
+
+        <p class="para-text">Cognifyz Technologies stands as a beacon of innovation in the tech world, revolutionizing industries with its cutting-edge AI, ML, and data analytics solutions. 
+            With a vision to empower possibilities, the company crafts refined software tools that redefine customer experiences and decision-making processes. 
+            Its AI chatbot platform seamlessly integrates across digital platforms, setting new benchmarks in customer support efficiency. 
+            Meanwhile, its pioneering ML-driven solutions drive real-time insights for predictive analytics, fraud detection, and personalized recommendations. 
+            Cognifyz Technologies doesn't just build technology—it creates transformative impacts that bridge imagination and intelligence, shaping a smarter tomorrow.</p>
+    
+        <img class="side-img" src="images/rocket-2.png">
+    </div>
+
+        <div class="form-box" id="contact-form">
+            <h2>Contact Us</h2>
+            <form class="form-style">
+                <label for="name">Name:</label>
+                <input class="name-box" type="text" id="name" name="name" required placeholder="Enter Name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input class="email-box" type="email" id="email" name="email" required placeholder="Enter e-mail"><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea class="message-box" id="message" name="message" rows="5" required placeholder="Your message"></textarea><br><br>
+                
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+        
+        
+        
+
+</body>
+</html>
